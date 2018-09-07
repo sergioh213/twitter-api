@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-size: 16px;
+}
+.wrapper {
+    background-color: rgb(204, 204, 204);
+    border-bottom: black 2px solid;
+    position: relative;
+    height: 2.5em;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#headLines {
+    white-space: nowrap;
+    position: absolute;
+    left: 30%;
+}
+#headLines a {
+    padding-right: 30px;
+    color: black;
+}
